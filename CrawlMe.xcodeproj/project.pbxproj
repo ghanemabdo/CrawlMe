@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2AC852F17D9B3070037AE2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC852E17D9B3070037AE2F /* UIKit.framework */; };
+		F2AC853117D9B3070037AE2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC853017D9B3070037AE2F /* Foundation.framework */; };
+		F2AC853317D9B3070037AE2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2AC853217D9B3070037AE2F /* CoreGraphics.framework */; };
+		F2AC853917D9B3070037AE2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2AC853717D9B3070037AE2F /* InfoPlist.strings */; };
+		F2AC853B17D9B3070037AE2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC853A17D9B3070037AE2F /* main.m */; };
+		F2AC853F17D9B3070037AE2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC853E17D9B3070037AE2F /* AppDelegate.m */; };
+		F2AC854117D9B3070037AE2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC854017D9B3070037AE2F /* Default.png */; };
+		F2AC854317D9B3070037AE2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC854217D9B3070037AE2F /* Default@2x.png */; };
+		F2AC854517D9B3070037AE2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC854417D9B3070037AE2F /* Default-568h@2x.png */; };
+		F2AC854817D9B3070037AE2F /* URLInputViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC854717D9B3070037AE2F /* URLInputViewController.h.m */; };
+		F2AC854B17D9B3070037AE2F /* URLInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AC854917D9B3070037AE2F /* URLInputViewController.xib */; };
+		F2AC855217D9B89A0037AE2F /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC855117D9B89A0037AE2F /* button.png */; };
+		F2AC855617D9BB920037AE2F /* DisplayResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC855417D9BB920037AE2F /* DisplayResultViewController.m */; };
+		F2AC855717D9BB920037AE2F /* DisplayResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AC855517D9BB920037AE2F /* DisplayResultViewController.xib */; };
+		F2AC855A17D9BC0A0037AE2F /* URLDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC855917D9BC0A0037AE2F /* URLDownloader.m */; };
+		F2AC855E17D9CCAB0037AE2F /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC855D17D9CCAB0037AE2F /* Page.m */; };
+		F2AC859817DBA4080037AE2F /* WebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC859617DBA4080037AE2F /* WebpageViewController.m */; };
+		F2AC859917DBA4080037AE2F /* WebpageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AC859717DBA4080037AE2F /* WebpageViewController.xib */; };
+		F2AC859C17DBABEF0037AE2F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC859A17DBABEF0037AE2F /* Icon.png */; };
+		F2AC859D17DBABEF0037AE2F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2AC859B17DBABEF0037AE2F /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2AC852B17D9B3070037AE2F /* CrawlMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrawlMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AC852E17D9B3070037AE2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2AC853017D9B3070037AE2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2AC853217D9B3070037AE2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2AC853617D9B3070037AE2F /* CrawlMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrawlMe-Info.plist"; sourceTree = "<group>"; };
+		F2AC853817D9B3070037AE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2AC853A17D9B3070037AE2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2AC853C17D9B3070037AE2F /* CrawlMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrawlMe-Prefix.pch"; sourceTree = "<group>"; };
+		F2AC853D17D9B3070037AE2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2AC853E17D9B3070037AE2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2AC854017D9B3070037AE2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F2AC854217D9B3070037AE2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F2AC854417D9B3070037AE2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F2AC854617D9B3070037AE2F /* URLInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLInputViewController.h; sourceTree = "<group>"; };
+		F2AC854717D9B3070037AE2F /* URLInputViewController.h.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLInputViewController.h.m; sourceTree = "<group>"; };
+		F2AC854A17D9B3070037AE2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/URLInputViewController.xib; sourceTree = "<group>"; };
+		F2AC855117D9B89A0037AE2F /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		F2AC855317D9BB920037AE2F /* DisplayResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayResultViewController.h; sourceTree = "<group>"; };
+		F2AC855417D9BB920037AE2F /* DisplayResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayResultViewController.m; sourceTree = "<group>"; };
+		F2AC855517D9BB920037AE2F /* DisplayResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayResultViewController.xib; sourceTree = "<group>"; };
+		F2AC855817D9BC0A0037AE2F /* URLDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLDownloader.h; sourceTree = "<group>"; };
+		F2AC855917D9BC0A0037AE2F /* URLDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLDownloader.m; sourceTree = "<group>"; };
+		F2AC855B17D9BD860037AE2F /* CrawlingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrawlingDelegate.h; sourceTree = "<group>"; };
+		F2AC855C17D9CCAA0037AE2F /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		F2AC855D17D9CCAB0037AE2F /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		F2AC855F17D9D0010037AE2F /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		F2AC859517DBA4080037AE2F /* WebpageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebpageViewController.h; sourceTree = "<group>"; };
+		F2AC859617DBA4080037AE2F /* WebpageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebpageViewController.m; sourceTree = "<group>"; };
+		F2AC859717DBA4080037AE2F /* WebpageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebpageViewController.xib; sourceTree = "<group>"; };
+		F2AC859A17DBABEF0037AE2F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F2AC859B17DBABEF0037AE2F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2AC852817D9B3070037AE2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC852F17D9B3070037AE2F /* UIKit.framework in Frameworks */,
+				F2AC853117D9B3070037AE2F /* Foundation.framework in Frameworks */,
+				F2AC853317D9B3070037AE2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2AC852217D9B3070037AE2F = {
+			isa = PBXGroup;
+			children = (
+				F2AC853417D9B3070037AE2F /* CrawlMe */,
+				F2AC852D17D9B3070037AE2F /* Frameworks */,
+				F2AC852C17D9B3070037AE2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AC852C17D9B3070037AE2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC852B17D9B3070037AE2F /* CrawlMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AC852D17D9B3070037AE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC852E17D9B3070037AE2F /* UIKit.framework */,
+				F2AC853017D9B3070037AE2F /* Foundation.framework */,
+				F2AC853217D9B3070037AE2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2AC853417D9B3070037AE2F /* CrawlMe */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC853D17D9B3070037AE2F /* AppDelegate.h */,
+				F2AC853E17D9B3070037AE2F /* AppDelegate.m */,
+				F2AC854617D9B3070037AE2F /* URLInputViewController.h */,
+				F2AC854717D9B3070037AE2F /* URLInputViewController.h.m */,
+				F2AC854917D9B3070037AE2F /* URLInputViewController.xib */,
+				F2AC855317D9BB920037AE2F /* DisplayResultViewController.h */,
+				F2AC855417D9BB920037AE2F /* DisplayResultViewController.m */,
+				F2AC855517D9BB920037AE2F /* DisplayResultViewController.xib */,
+				F2AC859517DBA4080037AE2F /* WebpageViewController.h */,
+				F2AC859617DBA4080037AE2F /* WebpageViewController.m */,
+				F2AC859717DBA4080037AE2F /* WebpageViewController.xib */,
+				F2AC855817D9BC0A0037AE2F /* URLDownloader.h */,
+				F2AC855917D9BC0A0037AE2F /* URLDownloader.m */,
+				F2AC855C17D9CCAA0037AE2F /* Page.h */,
+				F2AC855D17D9CCAB0037AE2F /* Page.m */,
+				F2AC855B17D9BD860037AE2F /* CrawlingDelegate.h */,
+				F2AC855F17D9D0010037AE2F /* globals.h */,
+				F2AC853517D9B3070037AE2F /* Supporting Files */,
+			);
+			path = CrawlMe;
+			sourceTree = "<group>";
+		};
+		F2AC853517D9B3070037AE2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC853617D9B3070037AE2F /* CrawlMe-Info.plist */,
+				F2AC853717D9B3070037AE2F /* InfoPlist.strings */,
+				F2AC853A17D9B3070037AE2F /* main.m */,
+				F2AC853C17D9B3070037AE2F /* CrawlMe-Prefix.pch */,
+				F2AC854017D9B3070037AE2F /* Default.png */,
+				F2AC854217D9B3070037AE2F /* Default@2x.png */,
+				F2AC854417D9B3070037AE2F /* Default-568h@2x.png */,
+				F2AC855117D9B89A0037AE2F /* button.png */,
+				F2AC859A17DBABEF0037AE2F /* Icon.png */,
+				F2AC859B17DBABEF0037AE2F /* Icon@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2AC852A17D9B3070037AE2F /* CrawlMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AC854E17D9B3070037AE2F /* Build configuration list for PBXNativeTarget "CrawlMe" */;
+			buildPhases = (
+				F2AC852717D9B3070037AE2F /* Sources */,
+				F2AC852817D9B3070037AE2F /* Frameworks */,
+				F2AC852917D9B3070037AE2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrawlMe;
+			productName = CrawlMe;
+			productReference = F2AC852B17D9B3070037AE2F /* CrawlMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2AC852317D9B3070037AE2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Abdurrahman Ghanem";
+			};
+			buildConfigurationList = F2AC852617D9B3070037AE2F /* Build configuration list for PBXProject "CrawlMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2AC852217D9B3070037AE2F;
+			productRefGroup = F2AC852C17D9B3070037AE2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2AC852A17D9B3070037AE2F /* CrawlMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2AC852917D9B3070037AE2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC853917D9B3070037AE2F /* InfoPlist.strings in Resources */,
+				F2AC854117D9B3070037AE2F /* Default.png in Resources */,
+				F2AC854317D9B3070037AE2F /* Default@2x.png in Resources */,
+				F2AC854517D9B3070037AE2F /* Default-568h@2x.png in Resources */,
+				F2AC854B17D9B3070037AE2F /* URLInputViewController.xib in Resources */,
+				F2AC855217D9B89A0037AE2F /* button.png in Resources */,
+				F2AC855717D9BB920037AE2F /* DisplayResultViewController.xib in Resources */,
+				F2AC859917DBA4080037AE2F /* WebpageViewController.xib in Resources */,
+				F2AC859C17DBABEF0037AE2F /* Icon.png in Resources */,
+				F2AC859D17DBABEF0037AE2F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AC852717D9B3070037AE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC853B17D9B3070037AE2F /* main.m in Sources */,
+				F2AC853F17D9B3070037AE2F /* AppDelegate.m in Sources */,
+				F2AC854817D9B3070037AE2F /* URLInputViewController.h.m in Sources */,
+				F2AC855617D9BB920037AE2F /* DisplayResultViewController.m in Sources */,
+				F2AC855A17D9BC0A0037AE2F /* URLDownloader.m in Sources */,
+				F2AC855E17D9CCAB0037AE2F /* Page.m in Sources */,
+				F2AC859817DBA4080037AE2F /* WebpageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2AC853717D9B3070037AE2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AC853817D9B3070037AE2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2AC854917D9B3070037AE2F /* URLInputViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AC854A17D9B3070037AE2F /* en */,
+			);
+			name = URLInputViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2AC854C17D9B3070037AE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2AC854D17D9B3070037AE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2AC854F17D9B3070037AE2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrawlMe/CrawlMe-Prefix.pch";
+				INFOPLIST_FILE = "CrawlMe/CrawlMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2AC855017D9B3070037AE2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrawlMe/CrawlMe-Prefix.pch";
+				INFOPLIST_FILE = "CrawlMe/CrawlMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2AC852617D9B3070037AE2F /* Build configuration list for PBXProject "CrawlMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC854C17D9B3070037AE2F /* Debug */,
+				F2AC854D17D9B3070037AE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AC854E17D9B3070037AE2F /* Build configuration list for PBXNativeTarget "CrawlMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC854F17D9B3070037AE2F /* Debug */,
+				F2AC855017D9B3070037AE2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2AC852317D9B3070037AE2F /* Project object */;
+}
